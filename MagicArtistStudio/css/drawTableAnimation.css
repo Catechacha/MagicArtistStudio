@@ -1,0 +1,196 @@
+﻿.lapisAnimate{
+    position:absolute;
+    margin:90px 122px;
+    animation: lapisAnimation 2s ease-in-out;
+}
+@keyframes lapisAnimation {        
+  0%{margin-left : -120px;margin-top: 250px;transform:rotate(200deg);z-index:5;}
+  30%{transform:rotate(195deg);}
+  60%{transform:rotate(200deg);}
+  75%{transform:rotate(195deg);}
+  100% {margin-left:50px; margin-top: 250px;transform:rotate(200deg); z-index:5;}      
+}
+
+.brushAnimate{
+    margin:95px 230px;
+    position:absolute;
+    animation: brushAnimation 2s ease-in;
+}
+@keyframes brushAnimation {        
+  0%{width:30px;height:250px; margin-left: -120px;margin-top: 250px;transform:rotate(200deg);z-index:5;}
+  30%{transform:rotate(195deg);}
+  60%{transform:rotate(200deg);}
+  75%{transform:rotate(195deg);}
+  100%{width:30px;height:250px;margin-left:50px; margin-top: 250px;transform:rotate(200deg); z-index:5;}       
+}
+
+.rainbowPenAnimate{
+    position: absolute;
+    margin:70px 250px;
+    background-color:transparent;
+    box-shadow: 0 0 0 transparent;
+    animation: rainbowPenAnimation 2s ease;
+}
+@keyframes rainbowPenAnimation{
+    100% {
+        opacity:0.5;
+        border-radius:100%;
+        box-shadow: 0 0 0 2px #4200AB, 0 0 0 4px #000095, 0 0 0 6px #00ABFF, 0 0 0 8px #00C800, 0 0 0 10px #FFF800, 0 0 0 12px #FF7642, 0 0 0 14px #E40000;
+    }
+}
+
+.eraserAnimate{
+    position:absolute;
+    margin:325px 375px;
+    animation: eraserAnimation 3s ease;
+}
+@keyframes eraserAnimation {
+    0% { transform:scale(1); }
+    15% { transform:scale(1.2); }
+    25% { transform:scale(1.1); }
+    35% { transform:scale(1.2); }
+    100% { transform:scale(1); }
+}
+
+.rulerAnimate{
+    position:absolute;
+    margin:85px 315px;
+    animation: rulerAnimation 2s ease;
+}
+@keyframes rulerAnimation{
+    0% { transform:translate(-200px,100px) rotate(45deg); z-index:500;}
+    25% { transform:translate(-150px,100px) rotate(-45deg);}
+    50%{transform:translate(-100px,100px) rotate(45deg);}
+    75%{transform:translate(-50px,100px) rotate(-45deg);}
+    100%{transform:translate(0px,100px) rotate(45deg); z-index:500;}
+}
+
+.textAnimate{
+    position:absolute;
+    margin:40px 370px;
+    animation:textAnimation 1s ease-in;
+}
+@keyframes textAnimation{
+    3%{transform:rotate(5deg);margin:40px 370px;}
+    6%{transform:rotate(-5deg);margin:40px 370px;}
+    9%{margin:40px 370px;transform:rotate(5deg);}
+    12%{margin:40px 370px;transform:rotate(-5deg);}
+    13%{transform:rotate(0deg);margin:40px 370px;}
+    80%{margin-top:280px;}
+    85%{margin-top:275px;}
+    90%{margin-top:280px;}
+    95%{margin-top:278px;}
+    100%{margin-top:276px;}
+}
+
+.sprinklerAnimate{
+    position:absolute;
+    margin:70px 150px;
+    animation:sprinklerAnimation 2s linear;
+}
+@keyframes sprinklerAnimation{
+    0%{margin-left:-400px;margin-top:150px;z-index:50;}
+    50%{margin-left:400px;transform:scale(1.5,1.5) rotate(-25deg);z-index:50;opacity:1;}
+    75%{margin:20px 150px;transform:scale(0.3,0.3);z-index:1;opacity:0.5;}
+    100%{margin:70px 150px;z-index:1;opacity:1;}
+}
+
+.sprayAnimate{
+    position:absolute;
+    margin:100px 280px;
+    animation:sprayAnimation 2s linear;
+}
+@keyframes sprayAnimation{
+    0%{margin-left:-400px;margin-top:150px;z-index:50;}
+    50%{margin-left:400px;transform:scale(1.5,1.5) rotate(-45deg);z-index:50;opacity:1;}
+    75%{margin:65px 300px;transform:scale(0.3,0.3);z-index:1;opacity:0.5;}
+    100%{margin:100px 280px;z-index:1;opacity:1;}
+}
+
+.formsAnimate{
+    position:absolute;
+    margin:325px 10px;
+    animation: formsAnimation 3s ease;
+}
+@keyframes formsAnimation{
+    0% { transform:scale(1); }
+    15% { transform:scale(1.2); }
+    25% { transform:scale(1.1); }
+    35% { transform:scale(1.2); }
+    100% { transform:scale(1); }
+}
+
+
+/*Other Panel*/
+.fish{
+    position:absolute;
+    margin-top:375px;
+    margin-left:305px;
+    z-index:5;
+    width:40px;
+    height:25px;
+    animation: fishAnimation 10s infinite;
+    animation-timing-function: linear;/*no robot :D :D :D*/
+}
+
+@keyframes fishAnimation{
+    0%{transform:translate(0px,0px);}
+    10%{transform:translate(20px,3px) rotate(2deg);}
+    20%{transform:translate(40px,0px) rotate(-2deg);}
+    30% {transform:translate(60px,6px) rotate(2deg);}
+    40%{transform:translate(80px,10px) rotate(-2deg);}
+    50%{transform:translate(100px,0px);}
+    50.01%{transform:translate(100px,0px) rotateY(180deg);}
+    60%{transform:translate(80px,10px) rotateY(180deg) rotate(2deg);}
+    70%{transform:translate(60px,6px) rotateY(180deg);}
+    80%{transform:translate(40px,15px) rotateY(180deg);}
+    90%{transform:translate(20px,10px) rotateY(180deg);}
+    100%{transform:translate(0,0) rotateY(180deg);}
+}
+
+.sunDiv{
+    z-index:2;
+    margin-left:420px;
+    margin-top:160px;
+	width:20px;
+	height:20px;
+	border-radius:50px;
+	background:yellow;
+    animation: sunAnimation 36s infinite;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 40px 15px yellow;
+}
+
+@keyframes sunAnimation{
+    0%{transform:translate(0,0);box-shadow: 0px 0px 5px 5px yellow;}
+    13.32%{transform:translate(-40px,-40px) scale(1.5,1.5);}
+    26.4%{transform:translate(-80px,-70px) scale(2,2);}
+    33.3%{transform:translate(-100px,-100px) scale(2,2);background-color:rgb(243,241,95);box-shadow: 0px 0px 5px 5px rgb(243,241,95);}
+    36.63%{transform:translate(-120px,-102px) scale(2,2);}
+    46.62%{transform:translate(-140px,-85px) scale(1.85,1.85);}
+    53.3%{transform:translate(-180px,-40px) scale(1.5,1.5);}
+    66.6%{transform:translate(-210px,35px) scale(0.5,0.5); background-color:sandybrown;box-shadow: 0px 0px 5px 5px sandybrown;}
+    66.7%{background-color:rgb(253,255,241);box-shadow: 0px 0px 5px 5px rgb(253,255,241);}
+    75.5%{transform:translate(-150px,-50px) scale(1,1); background-color:rgb(253,255,241);box-shadow: 0px 0px 5px 5px rgb(253,255,241);opacity:1;}
+    85%{transform:translate(-65px,-100px) scale(2,2); background-color:rgb(253,255,241);box-shadow: 0px 0px 5px 5px rgb(253,255,241);opacity:1;}
+    100%{background-color:rgb(253,255,241); transform:scale(1,1);box-shadow: 0px 0px 5px 5px rgb(253,255,241);opacity:0;}
+}
+
+.sky{
+    position:absolute;
+    margin-top:10px;
+    margin-left:204px;
+    z-index:0;
+    width:250px;
+    height:275px;
+    background:rgb(200,233,242);
+    animation:skyAnimation 36s infinite;
+}
+
+@keyframes skyAnimation{
+    0%{}
+    33.3%{background-color:rgb(55,203,244);}
+    66.6%{background-color:rgb(150,2,249);}
+    90%{background:rgb(49,30,169);}
+    100%{background:rgb(200,233,242);}
+}

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="/css/drawTable.css" rel="stylesheet" />
+    <link href="/css/drawTablePanel.css" rel="stylesheet" />
+    <link href="/css/drawTableAnimation.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/js/eraser.js"></script>
+    <script type="text/javascript" src="/js/spray.js"></script>
+    <script type="text/javascript" src="/js/ruler.js"></script>
+    <script type="text/javascript" src="/js/brush.js"></script>
+    <script type="text/javascript" src="/js/lapis.js"></script>
+    <script type="text/javascript" src="/js/sprinkler.js"></script>
+    <script type="text/javascript" src="/js/rainbowPen.js"></script>
+    <script type="text/javascript" src="/js/forms.js"></script>
+    <script type="text/javascript" src="/js/text.js"></script>
+    <script type="text/javascript" src="/js/imageDesigner2.js"></script>
+    <script type="text/javascript" src="/js/drawTableScripts.js"></script>
+</head>
+<body>
+    <br />
+    <div style="display:inline;">
+        <div class="toolPanel" id="toolPanel">
+            <img class="shelf" src="/images/shelf.jpg" draggable="false"/>
+            <img class="lapis" id="lapis" src="/images/lapis.png" draggable="false"/>
+            <img class="brush" id="brush" src="/images/brush.png" draggable="false" />
+            <img class="sprinkler" id="sprinkler" src="/images/sprinkler.png" draggable="false"/>
+            <img class="spray" id="spray" src="/images/spray.png" draggable="false"/>
+            <img class="rainbowPen" id="rainbowPen" src="/images/rainbowPen.png" draggable="false" />
+            <img class="portaOggetti" src="/images/tools2.png" draggable="false"/>
+            <img class="ruler" id="ruler" src="/images/ruler.png" draggable="false" />
+            <img class="forms" id="forms" src="/images/forms.png" draggable="false" />
+            <img class="text" id="text" src="/images/text.png" draggable="false" />
+            <img class="eraser" id="eraser" src="/images/eraser.png" draggable="false" />
+        </div>
+        <input type="button" class="undo" id="undoButton" draggable="false" />
+        <canvas class="drawContainer" id="drawContainer" width="700" height="500"></canvas>
+    </div>
+    <div>
+        <button class="myButton" id="otherButton" style="margin-top:25px; margin-left:50px;">Other</button>
+        <button class="myButton" id="menuButton" style="margin-top:25px; margin-left:210px;">Menu</button>
+        <button class="myButton" id="newButton" style="margin-top:25px; margin-left:370px;">New</button>
+        <panel class="myPanel" id="myPanel">
+            <div class="toolDivImage">
+               <img src="/images/lapis.png" class="toolImage" id="toolImage" draggable="false"/>
+            </div>
+        </panel>      
+    </div>
+</body>
+</html>

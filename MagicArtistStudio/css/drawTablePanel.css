@@ -1,0 +1,240 @@
+﻿.colorPanel{
+    position:absolute;
+    width:280px;
+    height:73px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    margin-left:140px;
+    margin-top:23.5px;
+}
+.colorFirstLineStyle{
+    width: 25px;
+    height:25px;
+    margin-top:5px;
+    border-radius: 40px;
+}
+.colorSecondLineStyle{
+    width: 25px;
+    height:25px;
+    border-radius: 40px;
+}
+
+.penWidthPanel{
+    width:230px;
+    height:73px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    margin-left:440px;
+    margin-top:23.5px;
+    text-align:center;
+    vertical-align:central;
+}
+.penWidthButton{
+    border-radius:40px;
+    margin-top:15px;
+}
+
+.eraserWidthPanel{
+    width:400px;
+    height:100px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    margin-left:200px;
+    margin-top:8px;
+    text-align:center;
+    vertical-align:central;
+}
+.eraserWidthButton{
+    width:15px;
+    border-radius: 100px;
+    border-color:blue;
+    background-color:white;
+    margin-top:20px;
+}
+
+.textBox{
+    position:absolute;
+    width:280px;
+    height:20px;
+    margin-left:-205px;
+    margin-top:88px;
+}
+
+.leftKey{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px double coral;
+    background-color:lavender;
+    background-image:url('/images/leftKey.png');
+    background-repeat:no-repeat;
+    background-position-x:0px;
+    background-position-y:3px;
+    border-radius:40px;
+    margin-left:435px;
+    margin-top:20px;
+}
+.selectFontPanel{
+    position:absolute;
+    width:175px;
+    height:35px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius:40px;
+    margin-left:470px;   
+    margin-top:15px;
+    text-align:center;
+    font-size:25px;   
+    vertical-align:central;
+}
+.rightKey{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border: 3px double coral;
+    background-color:lavender;
+    background-image:url('/images/rightKey.png') ;
+    background-repeat:no-repeat;
+    background-position-x:4px;
+    background-position-y:2px;
+    border-radius:40px;
+    margin-left:305px;
+    margin-top:20px;
+}
+
+.styleFontPanel{
+    width:250px;
+    height:50px;
+    margin-left:435px;
+    margin-top:57px;
+    background-color:transparent;
+    border: transparent;
+}
+.styleFontButton{
+    background-color:lavender;
+    border-radius:40px;
+    margin-top:5px;
+    margin-left:5px;
+    width:56px;
+    height:40px;
+    font-size:25px;
+    vertical-align:central;
+}
+
+.leftKeySprinkler{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px double coral;
+    background-color:lavender;
+    background-image:url('/images/leftKey.png');
+    background-repeat:no-repeat;
+    background-position-x:0px;
+    background-position-y:3px;
+    border-radius:40px;
+    margin-left:155px;
+    margin-top:45px;
+}
+.sprinklerPanel{
+    position:absolute;
+    width:400px;
+    height:100px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    margin-left:200px;
+    margin-top:8px;
+    text-align:center;
+    vertical-align:central;
+}
+.sprinkleImg{
+    width:200px;
+    height:90px;
+    margin-top:3px;
+}
+.rightKeySprinkler{
+    position:absolute;
+    width:25px;
+    height:25px;
+    border: 3px double coral;
+    background-color:lavender;
+    background-image:url('/images/rightKey.png') ;
+    background-repeat:no-repeat;
+    background-position-x:4px;
+    background-position-y:2px;
+    border-radius:40px;
+    margin-left:620px;
+    margin-top:45px;
+}
+
+.formsPanel{
+    position:absolute;
+    width:240px;
+    height:100px;
+    background-color:transparent;
+    border-color:transparent;
+    margin-left:440px;   
+    margin-top:8px;
+}
+.borderColorButton{
+    height:50px;
+    width:100px;
+    margin-top:5px;
+    margin-left:0px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    font-family:Minnie;
+    font-size:20px;
+}
+.borderColorButtonPressed{
+    height:50px;
+    width:100px;
+    margin-top:5px;
+    margin-left:0px;
+    font-weight:bolder;
+    border: 3px solid coral;
+    background-color:lavenderblush;
+    border-radius: 40px;
+    font-family:Minnie;
+    font-size:20px;
+}
+.fillColorButton{
+    height:50px;
+    width:100px;
+    margin-top:5px;
+    margin-left:10px;
+    background-color:lavender;
+    border: 3px double coral;
+    border-radius: 40px;
+    font-family:Minnie;
+    font-size:20px;
+}
+.fillColorButtonPressed{
+    height:50px;
+    width:100px;
+    margin-top:5px;
+    margin-left:10px;
+    font-weight:bolder;
+    border: 3px solid coral;
+    background-color:lavenderblush;
+    font-family:Minnie;
+    border-radius: 40px;
+    font-size:20px;
+}
+.rectButton{
+    height:40px;
+    width:60px;
+    margin-top:2px;
+    margin-left:0px;
+}
+.circleButton {
+    height: 40px;
+    width: 40px;
+    margin-top: 2px;
+    margin-left: 60px;
+    border-radius: 40px;
+}

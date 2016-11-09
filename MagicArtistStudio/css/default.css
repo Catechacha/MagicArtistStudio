@@ -1,0 +1,182 @@
+﻿body {
+    background-color:black;
+    text-align:center;
+    font-size:20px;
+}
+
+.mickeyImg{
+    position:absolute;
+    margin-left:-550px;
+    margin-top:-20px;
+    z-index:5;
+}
+
+myTitle {
+    color: transparent;
+    background: linear-gradient(to left, rgb(207,4,4) 0%, rgb(244,238,117) 14%, rgb(161,232,111) 30%, rgb(161,232,111) 30%, rgb(64,209,96) 47%, rgb(54,196,209) 64%, rgb(57,62,219) 82%, rgb(201,96,192) 100%);
+    background-clip: text;
+    font-size: 120px;
+    font-family: 'Minnie'; 
+}    
+
+.myButton{
+    margin-left:-650px;
+    position:absolute;
+    font-size:100px;
+    font-family:'Minnie';
+    text-align: center;
+    border-radius: 40px;
+    border: double;
+    border-width:6px;
+    border-color:rgb(238,243,96);
+    height:150px;
+    width:400px;
+    color:coral;
+    background-color:black;  
+}
+
+.myButton:hover{
+    border:double;
+    border-color:coral;
+    border-width:6px;
+    text-shadow:3px 3px rgb(244,238,117);
+    box-shadow:3px 3px rgb(244,238,117);
+}
+
+.myButton:active{
+    border-width:6px;
+    border-color:rgb(27,23,249);
+    color: rgb(27,23,249);
+    text-shadow: 4px 4px rgb(90,144,243);
+    box-shadow: 3px 3px rgb(90,144,243);
+}
+.playButton{
+    margin-top:150px;
+}
+.quitButton{
+    margin-top:275px;
+}
+
+.containerImage{
+    border: double;
+    border-width:4px;
+    border-color:rgb(238,243,96);
+    border-radius:40px;
+    text-align:left;
+    position:absolute;
+    margin-left:500px;
+    margin-top:-100px;
+    border-color:red;
+    border-width:5px;
+    height:500px;
+    width:800px;
+    background-image:url('../images/img/wallpaper.jpg');
+}
+
+.shelf{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position:absolute;
+    width:800px;
+    height:100px;
+    margin-left:0px;
+    margin-top:400px;
+}
+
+.canvasImg{
+    position:absolute;
+    margin-left:40px;
+    margin-top:25px;
+}
+
+.shelf2{
+    z-index:1;
+    margin-left:350px;
+    margin-top:100px;
+    width:250px;
+    height:25px;
+    position:absolute;
+}
+
+.minnieSymbol{
+    margin-left:360px;
+    margin-top:60px;
+    height:40px;
+    width:40px;
+}
+
+.minnieSymbolAnimate{
+    margin-left:360px;
+    margin-top:60px;
+    height:40px;
+    width:40px;
+    animation: minnieSymbolAnimation 4s linear;
+}
+
+/*@keyframes minnieSymbolAnimation{
+    0%{margin-left:360px;}
+    60%{margin-left: 600px;transform: rotate(1080deg);margin-top:60px;}
+    90%{margin-left: 600px;margin-top:460px;}
+    90.01%{margin-left:360px;margin-top:-1px;}
+    99%{margin-left:360px;margin-top:60px;transform:rotate(-5deg);}
+    100%{margin-left:360px;margin-top:60px;}
+}*/
+
+@keyframes minnieSymbolAnimation{
+    0%{margin-left:360px;}
+    40%{margin-left: 600px;transform: rotate(1080deg);margin-top:60px;}
+    60%{margin-left: 600px;margin-top:260px;transform: rotate(1440deg);}
+    65%{margin-left:635px; margin-top:230px;transform: rotate(1620deg);}
+    90%{margin-left: 675px;margin-top:460px;transform:rotate(2160deg);}
+    90.01%{margin-left:360px;margin-top:-1px;}
+    99%{margin-left:360px;margin-top:60px;}
+    100%{margin-left:360px;margin-top:60px;transform:rotate(2520deg);}
+}
+
+.birillo1{
+    position:absolute;
+    height:80px;
+    width:25px;
+    top:25px;
+    left:425px;
+}
+
+.birillo1Animation{
+    position:absolute;
+    height:80px;
+    width:25px;
+    top:25px;
+    left:425px;
+    animation: birillo1Anim 4s linear;
+}
+
+@keyframes birillo1Anim{
+    0%{top:25px;left:425px;}
+    6%{top:25px;left:425px;transform:rotate(0deg);}
+    10%{left:427px; transform:rotate(90deg); top:50px;}
+    100%{left:427px; transform:rotate(90deg);top:50px;}
+}
+
+.books{
+    position:absolute;
+    height:85px;
+    width:100px;
+    top:25px;
+    left:470px;
+}
+
+.sofa{
+    position:absolute;
+    width:320px;
+    height:200px;
+    top:230px;
+    left:330px;
+}
+
+.plant{
+    position:absolute;
+    top:50px;
+    left:650px;
+    width:150px;
+    height:400px;
+}

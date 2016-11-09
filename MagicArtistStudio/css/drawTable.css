@@ -1,0 +1,240 @@
+﻿body{
+    background-color:black;
+}
+
+.toolPanel{
+    display:inline-block;
+    height:500px;
+    width:480px;
+    border:3px double coral;
+    margin: 20px 20px 10px 50px;
+    border-radius: 40px;
+    background-image:url('/images/img/wallpaper.jpg');
+}
+
+.shelf{
+    position:absolute;
+    margin-top:350px;
+    height:150px;
+    width:480px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.drawContainer{
+    background-color:white;
+    border: 3px double coral;
+    margin: 20px 50px 10px 50px;
+    border-radius: 40px;
+}
+
+.myPanel{
+    text-align: center;
+    border-radius: 40px;
+    border:3px double coral;
+    background-color:cornsilk;
+    position:absolute;
+    height:120px;
+    width:700px;
+    margin-left:610px;
+}
+.toolDivImage{
+    position:absolute;
+    width:100px;
+    height:100px;
+    margin-top:8px;
+    margin-left:20px;
+    border: 3px double coral;
+    border-radius: 40px;
+    background-color:lavender; 
+    transition: all 0.4s ease;
+}
+.toolDivImage:hover{
+    border-color:darkblue;
+    background-color:deeppink;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.toolImage{
+    height:90px;
+    width:20px;
+    margin-top:6px;
+}
+
+.portaOggetti{
+    position:absolute;
+    margin:190px 115px;
+    width:250px;
+    height:190px;
+    z-index:2;
+}
+
+.lapis{
+    position:absolute;
+    margin:90px 122px;
+}
+
+.sprinkler{
+    position:absolute;
+    margin:70px 150px;
+}
+
+.brush{
+    position:absolute;
+    margin:95px 230px;
+}
+
+.rainbowPen{
+    position:absolute;
+    margin:70px 250px;
+}
+
+.spray{
+    position:absolute;
+    margin:100px 280px;
+}
+
+.ruler{
+    position:absolute;
+    margin:85px 315px;
+}
+
+.eraser{
+    position:absolute;
+    margin:325px 375px;
+}
+
+.forms{
+    position:absolute;
+    margin:325px 10px;
+}
+
+.text{
+    position:absolute;
+    margin:40px 370px;
+ }
+
+.myButton{
+    position:absolute;
+    margin-bottom:100px;
+    font-size:30px;
+    font-family:'Minnie';
+    text-align: center;
+    border-radius: 40px;
+    border:3px double rgb(238,243,96);
+    height:80px;
+    width:150px;
+    color:coral;
+    background-color:black;
+    vertical-align:middle;
+}
+.myButton:hover{
+    border:double;
+    border-color:coral;
+    border-width:6px;
+    text-shadow:3px 3px rgb(244,238,117);
+    box-shadow:3px 3px rgb(244,238,117);
+}
+.myButton:active{
+    border-width:6px;
+    border-color:rgb(27,23,249);
+    color: rgb(27,23,249);
+    text-shadow: 2px 2px rgb(90,144,243);
+    box-shadow: 2px 2px rgb(90,144,243);
+}
+
+.imgPanel{
+    position:absolute;
+    margin-top:-3px;
+    margin-left:-3px;
+    height:500px;
+    width:480px;
+    border:3px double coral;
+    border-radius: 40px;
+    background-image:url('/images/img/wallpaper.jpg');
+    z-index:5;
+}
+
+.mickeyImage{
+    position:absolute;
+    margin-top:10px;
+    margin-left:60px;
+}
+
+.minnieImage{
+    position:absolute;
+    margin-top:120px;
+    margin-left:10px;
+}
+
+.donaldImage{
+    position:absolute;
+    margin-top:220px;
+    margin-left:45px;
+}
+
+.daisyImage{    
+    position:absolute;
+    margin-top:300px;
+    margin-left:160px;
+}
+.fishBowl{
+    position:absolute;
+    margin-top:300px;
+    margin-left:300px;
+    z-index:4;
+    width:150px;
+    height:150px;
+}
+.windowImg{
+    position:absolute;
+    margin-top:10px;
+    margin-left:204px;
+    z-index:3;
+    width:250px;
+    height:275px;
+}
+
+.buttonImage{
+    position:absolute;
+    margin-top:10px;
+    height:100px;
+    width:100px;
+    background-size:90px 95px;
+    background-repeat:no-repeat;
+}
+.buttonImage1{
+    margin-left:100px;
+}
+.buttonImage2{
+    margin-left:300px;
+}
+.buttonImage3{
+    margin-left:500px;
+}
+
+.myPanelImage{
+    position:absolute;
+    margin-top:517px;
+    margin-left:558px;
+    text-align:left;
+    height:120px;
+    width:700px;
+    border-radius: 40px;
+    border:3px double coral;
+    background-color:cornsilk;
+    z-index:50;
+}
+
+.undo{
+    position:absolute;
+    width:50px;
+    height:50px;
+    margin-top:260px;
+    margin-left:-8px;
+    background-image:url(/images/undo.png);
+    background-repeat:no-repeat;
+    border-radius:10px;
+    opacity:0.6;
+}
